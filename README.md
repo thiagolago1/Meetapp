@@ -1,6 +1,7 @@
 # Meetapp
-App for bootcamp certification (GoStack Rocketseat)
+Developer event aggregator app for bootcamp certification (GoStack Rocketseat)
 > This app is built to take certification as a learning method for Rocketseat's GoStack course.
+
 see [Rocketseat](https://rocketseat.com.br/)
 
 ## Techs
@@ -11,13 +12,22 @@ see [Rocketseat](https://rocketseat.com.br/)
 
 ## Usage
 
+**clone repository**
 ```bash
 git clone https://github.com/thiagolago1/Meetapp.git
+```
 
-cd path to project
+**install dependencys**
+```bash
+cd path/to/project
 
-yarn install
+yarn instal
+```
 
+**Run express server**
+```bash
 yarn dev
 ```
+
+**soon the frontend part**
 
