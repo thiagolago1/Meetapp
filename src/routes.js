@@ -1,16 +1,9 @@
-// Importando o Router direto do express
-import { Router } from 'express';
-import UserController from './app/controllers/UserController';
-import SessionController from './app/controllers/SessionController';
-import authMiddleware from './app/middlewares/auth';
+const { Router } = require("express");
 
 const routes = new Router();
 
-routes.post('/users', UserController.store);
-routes.post('/sessions', SessionController.store);
+routes.get("/", (req, res) => {
+  return res.json({ message: "Hello Wolrd" });
+});
 
-routes.use(authMiddleware);
-
-routes.put('/users', UserController.update);
-
-export default routes;
+module.exports = routes;
