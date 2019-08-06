@@ -8,9 +8,9 @@ see [Rocketseat](https://rocketseat.com.br/)
 1. [NodeJS](https://nodejs.org/en/)
 2. [ExpressJS](https://expressjs.com/pt-br/)
 3. [ReactJS](https://pt-br.reactjs.org/)
-4. [React Navite](https://facebook.github.io/react-native/)
+4. [React Native](https://facebook.github.io/react-native/)
 
-## Usage
+## Backend Usage
 
 **clone repository**
 ```bash
@@ -21,7 +21,7 @@ git clone https://github.com/thiagolago1/Meetapp.git
 ```bash
 cd path/to/project
 
-yarn instal
+yarn install
 ```
 
 **Run express server**
@@ -29,5 +29,7 @@ yarn instal
 yarn dev
 ```
 
-**soon the frontend part**
+## Frontend Usage
+
+* soon the frontend part
 
