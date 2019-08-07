@@ -16,14 +16,14 @@ see [Rocketseat](https://rocketseat.com.br/)
 ## Backend Usage
 
 **install docker**
-see [Docker](https://www.docker.com/)
+> see [Docker](https://www.docker.com/)
 
-**create a postgres docker**
+**create a postgres database with docker**
 ```bash
 docker run --name -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
 
-**create a mongodb docker**
+**create a mongodb database with docker**
 ```bash
 docker run --name mongomeetapp -p 27017:27017 -d -t mongo
 ```
