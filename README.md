@@ -11,7 +11,6 @@ see [Rocketseat](https://rocketseat.com.br/)
 4. [React Native](https://facebook.github.io/react-native/)
 5. [Docker](https://www.docker.com/)
 6. [PostgreSQL](https://hub.docker.com/_/postgres)
-7. [MongoDB](https://hub.docker.com/_/mongo) 
 
 ## Backend Usage
 
@@ -22,12 +21,7 @@ see [Rocketseat](https://rocketseat.com.br/)
 ```bash
 docker run --name -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
-
-**create a mongodb database with docker**
-```bash
-docker run --name mongomeetapp -p 27017:27017 -d -t mongo
-```
-make sure the containers are running
+make sure the container are running
 
 **clone repository**
 ```bash
