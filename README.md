@@ -21,7 +21,12 @@ see [Rocketseat](https://rocketseat.com.br/)
 ```bash
 docker run --name -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
-make sure the container are running
+
+**create redis with docker (for queues)**
+```bash
+docker run --name redismeetapp -p 6379:6379 -d -t redis:alpine
+```
+make sure the containers are running
 
 **clone repository**
 ```bash
