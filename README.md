@@ -11,6 +11,7 @@ see [Rocketseat](https://rocketseat.com.br/)
 4. [React Native](https://facebook.github.io/react-native/)
 5. [Docker](https://www.docker.com/)
 6. [PostgreSQL](https://hub.docker.com/_/postgres)
+7. [Redis](https://hub.docker.com/_/redis)
 
 ## Backend Usage
 
