@@ -69,8 +69,9 @@ yarn queue
 ```
 
 **for http requests I recommend insomnia Rest client**
+
 > see [Insomnia](https://insomnia.rest/download/)
 
 ## Frontend Usage
 
-- soon the frontend part
+- https://github.com/thiagolago1/Meetapp-front
