@@ -1,4 +1,4 @@
-# Meetapp
+# [Meetapp](https://thiagolago1.github.io/Meetapp/)
 
 Developer event aggregator app for bootcamp certification (GoStack Rocketseat)
 
@@ -67,6 +67,9 @@ yarn dev
 ```bash
 yarn queue
 ```
+
+**for http requests I recommend insomnia Rest client**
+> see [Insomnia](https://insomnia.rest/download/)
 
 ## Frontend Usage
 
