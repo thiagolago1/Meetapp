@@ -68,6 +68,9 @@ yarn dev
 yarn queue
 ```
 
+**for http requests I recommend insomnia Rest client**
+> see [Insomnia](https://insomnia.rest/download/)
+
 ## Frontend Usage
 
 - soon the frontend part
