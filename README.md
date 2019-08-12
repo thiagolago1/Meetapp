@@ -25,7 +25,7 @@ see [Rocketseat](https://rocketseat.com.br/)
 **create a postgres database with docker**
 
 ```bash
-docker run --name -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
 
 **create redis with docker (for queues)**
@@ -71,6 +71,10 @@ yarn queue
 **for http requests I recommend insomnia Rest client**
 
 > see [Insomnia](https://insomnia.rest/download/)
+
+**interface for postgres I recommend postbird**
+
+> see [Postbird](https://electronjs.org/apps/postbird)
 
 ## Frontend Usage
 
